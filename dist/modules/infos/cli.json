@@ -1,0 +1,10 @@
+{
+  "name": "Cli",
+  "issues_url": "https://github.com/Modular-Life-Assistant/MoLA-cli-module/issues",
+  "description": "Add a command-line interface(cli) to MoLA.",
+  "url": "https://github.com/Modular-Life-Assistant/MoLA-cli-module",
+  "modules_required": [],
+  "github_id": 42136576,
+  "modules_optional": [],
+  "module_name": "cli"
+}

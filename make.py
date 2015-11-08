@@ -7,16 +7,19 @@ ROOT_PATH = os.path.dirname(os.path.abspath(__file__))
 DIST_PATH = os.path.join(ROOT_PATH, 'dist')
 
 
-def create_package_infos():
-    print('create packages infos...')
-    packages_infos_path = os.path.join(DIST_PATH, 'packages', 'infos')
+def create_module_infos():
+    print('create modules infos...')
+    modules_infos_path = os.path.join(DIST_PATH, 'modules', 'infos')
+    if not os.path.exists(modules_infos_path):
+        os.makedirs(modules_infos_path)
+
     r = requests.get('https://api.github.com/orgs/Modular-Life-Assistant/repos')
     for repo in r.json():
         if repo['name'].lower().endswith('module'):
             # set default value (editable value)
             name = ' '.join(repo['name'].split('-')[1:-1])
-            package = {
-                'package_name': name,
+            module = {
+                'module_name': name,
                 'name': name.replace('_', ' ').capitalize(),
                 'description': repo['description'],
                 'issues_url': repo['html_url'] + '/issues',
@@ -33,17 +36,17 @@ def create_package_infos():
 
             if info:
                 info = info.json()
-                for index in list(package):
-                    package[index] = info.get(index, package[index])
+                for index in list(module):
+                    module[index] = info.get(index, module[index])
 
             # none editable value
-            package['github_id'] = repo['id']
+            module['github_id'] = repo['id']
 
             # save
-            path = os.path.join(packages_infos_path,
-                                '%s.json' % package['package_name'])
+            path = os.path.join(modules_infos_path,
+                                '%s.json' % module['module_name'])
             with open(path, 'w') as f:
-                json.dump(package, f, indent=2)
+                json.dump(module, f, indent=2)
 
 
 def build_list(dir_name):
@@ -77,6 +80,6 @@ def build_list(dir_name):
         }, f, indent=2)
         print('%d %s' % (len(item_list), dir_name))
 
-create_package_infos()
-build_list('packages')
+create_module_infos()
+build_list('modules')
 build_list('projects')

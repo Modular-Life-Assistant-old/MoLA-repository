@@ -1,10 +1,10 @@
 {
   "projects": [
     {
-      "project_name": "home_protect",
-      "url": "",
       "name": "Home protect",
       "issues_url": "",
+      "project_name": "home_protect",
+      "url": "",
       "modules_optional": [
         "linux_notification_osd",
         "motion_detection_notification",

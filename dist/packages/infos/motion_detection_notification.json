@@ -1,0 +1,10 @@
+{
+  "url": "https://github.com/Modular-Life-Assistant/MoLA-motion_detection_notification-module",
+  "name": "Motion detection notification",
+  "package_name": "motion_detection_notification",
+  "issues_url": "https://github.com/Modular-Life-Assistant/MoLA-motion_detection_notification-module/issues",
+  "modules_optional": [],
+  "modules_required": [],
+  "description": "Send a notification to user when motion are detected.",
+  "github_id": 45355625
+}

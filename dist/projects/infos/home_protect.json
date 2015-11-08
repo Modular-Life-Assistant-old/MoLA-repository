@@ -1,0 +1,12 @@
+{
+  "project_name": "home_protect",
+  "description": "",
+  "name": "Home protect",
+  "modules_optional": [
+    "linux_notification_osd",
+    "motion_detection_notification",
+    "wanscam",
+    "windows_notification",
+    "windows_voice_synthesis"
+  ]
+}

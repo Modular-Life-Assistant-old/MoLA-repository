@@ -1,0 +1,10 @@
+{
+  "url": "https://github.com/Modular-Life-Assistant/MoLA-wanscam-module",
+  "name": "Wanscam",
+  "package_name": "wanscam",
+  "issues_url": "https://github.com/Modular-Life-Assistant/MoLA-wanscam-module/issues",
+  "modules_optional": [],
+  "modules_required": [],
+  "description": "Add wanscam device support to MoLA.",
+  "github_id": 45355123
+}

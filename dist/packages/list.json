@@ -1,0 +1,74 @@
+{
+  "packages": [
+    {
+      "name": "Cli",
+      "url": "https://github.com/Modular-Life-Assistant/MoLA-cli-module",
+      "modules_optional": [],
+      "modules_required": [],
+      "description": "Add a command-line interface(cli) to MoLA.",
+      "package_name": "cli",
+      "issues_url": "https://github.com/Modular-Life-Assistant/MoLA-cli-module/issues",
+      "github_id": 42136576
+    },
+    {
+      "name": "Internet connection check",
+      "url": "https://github.com/Modular-Life-Assistant/MoLA-internet_connection_check-module",
+      "modules_optional": [],
+      "modules_required": [],
+      "description": "Send a notification to user when internet are down/up.",
+      "package_name": "internet_connection_check",
+      "issues_url": "https://github.com/Modular-Life-Assistant/MoLA-internet_connection_check-module/issues",
+      "github_id": 41970202
+    },
+    {
+      "name": "Linux notification osd",
+      "url": "https://github.com/Modular-Life-Assistant/MoLA-linux_notification_osd-module",
+      "modules_optional": [],
+      "modules_required": [],
+      "description": "Send a notification on Linux platform (use Notify OSD).",
+      "package_name": "linux_notification_osd",
+      "issues_url": "https://github.com/Modular-Life-Assistant/MoLA-linux_notification_osd-module/issues",
+      "github_id": 41966376
+    },
+    {
+      "name": "Motion detection notification",
+      "url": "https://github.com/Modular-Life-Assistant/MoLA-motion_detection_notification-module",
+      "modules_optional": [],
+      "modules_required": [],
+      "description": "Send a notification to user when motion are detected.",
+      "package_name": "motion_detection_notification",
+      "issues_url": "https://github.com/Modular-Life-Assistant/MoLA-motion_detection_notification-module/issues",
+      "github_id": 45355625
+    },
+    {
+      "name": "Wanscam",
+      "url": "https://github.com/Modular-Life-Assistant/MoLA-wanscam-module",
+      "modules_optional": [],
+      "modules_required": [],
+      "description": "Add wanscam device support to MoLA.",
+      "package_name": "wanscam",
+      "issues_url": "https://github.com/Modular-Life-Assistant/MoLA-wanscam-module/issues",
+      "github_id": 45355123
+    },
+    {
+      "name": "Windows notification",
+      "url": "https://github.com/Modular-Life-Assistant/MoLA-windows_notification-module",
+      "modules_optional": [],
+      "modules_required": [],
+      "description": "Send a notification on Windows platform.",
+      "package_name": "windows_notification",
+      "issues_url": "https://github.com/Modular-Life-Assistant/MoLA-windows_notification-module/issues",
+      "github_id": 41969939
+    },
+    {
+      "name": "Windows voice synthesis",
+      "url": "https://github.com/Modular-Life-Assistant/MoLA-windows_voice_synthesis-module",
+      "modules_optional": [],
+      "modules_required": [],
+      "description": "Add voice synthesis support on Windows platform.",
+      "package_name": "windows_voice_synthesis",
+      "issues_url": "https://github.com/Modular-Life-Assistant/MoLA-windows_voice_synthesis-module/issues",
+      "github_id": 41969947
+    }
+  ]
+}

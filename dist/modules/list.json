@@ -1,39 +1,39 @@
 {
   "modules": [
     {
-      "module_name": "cli",
+      "name": "Cli",
       "description": "Add a command-line interface(cli) to MoLA.",
-      "name": "Cli"
+      "module_name": "cli"
     },
     {
-      "module_name": "internet_connection_check",
+      "name": "Internet connection check",
       "description": "Send a notification to user when internet are down/up.",
-      "name": "Internet connection check"
+      "module_name": "internet_connection_check"
     },
     {
-      "module_name": "linux_notification_osd",
+      "name": "Linux notification osd",
       "description": "Send a notification on Linux platform (use Notify OSD).",
-      "name": "Linux notification osd"
+      "module_name": "linux_notification_osd"
     },
     {
-      "module_name": "motion_detection_notification",
+      "name": "Motion detection notification",
       "description": "Send a notification to user when motion are detected.",
-      "name": "Motion detection notification"
+      "module_name": "motion_detection_notification"
     },
     {
-      "module_name": "wanscam",
+      "name": "Wanscam",
       "description": "Add wanscam device support to MoLA.",
-      "name": "Wanscam"
+      "module_name": "wanscam"
     },
     {
-      "module_name": "windows_notification",
+      "name": "Windows notification",
       "description": "Send a notification on Windows platform.",
-      "name": "Windows notification"
+      "module_name": "windows_notification"
     },
     {
-      "module_name": "windows_voice_synthesis",
+      "name": "Windows voice synthesis",
       "description": "Add voice synthesis support on Windows platform.",
-      "name": "Windows voice synthesis"
+      "module_name": "windows_voice_synthesis"
     }
   ]
 }

@@ -1,10 +1,11 @@
 {
-  "modules_optional": [],
-  "modules_required": [],
-  "description": "Add voice synthesis support on Windows platform.",
   "issues_url": "https://github.com/Modular-Life-Assistant/MoLA-windows_voice_synthesis-module/issues",
-  "url": "https://github.com/Modular-Life-Assistant/MoLA-windows_voice_synthesis-module",
+  "modules_optional": [],
+  "zip_url": "https://github.com/Modular-Life-Assistant/MoLA-windows_voice_synthesis-module/archive/master.zip",
   "module_name": "windows_voice_synthesis",
+  "url": "https://github.com/Modular-Life-Assistant/MoLA-windows_voice_synthesis-module",
+  "modules_required": [],
   "github_id": 41969947,
+  "description": "Add voice synthesis support on Windows platform.",
   "name": "Windows voice synthesis"
 }

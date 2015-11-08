@@ -1,10 +1,11 @@
 {
-  "modules_optional": [],
-  "modules_required": [],
-  "description": "Send a notification on Linux platform (use Notify OSD).",
   "issues_url": "https://github.com/Modular-Life-Assistant/MoLA-linux_notification_osd-module/issues",
-  "url": "https://github.com/Modular-Life-Assistant/MoLA-linux_notification_osd-module",
+  "modules_optional": [],
+  "zip_url": "https://github.com/Modular-Life-Assistant/MoLA-linux_notification_osd-module/archive/master.zip",
   "module_name": "linux_notification_osd",
+  "url": "https://github.com/Modular-Life-Assistant/MoLA-linux_notification_osd-module",
+  "modules_required": [],
   "github_id": 41966376,
+  "description": "Send a notification on Linux platform (use Notify OSD).",
   "name": "Linux notification osd"
 }

@@ -23,6 +23,7 @@ def create_module_infos():
                 'name': name.replace('_', ' ').capitalize(),
                 'description': repo['description'],
                 'issues_url': repo['html_url'] + '/issues',
+                'zip_url': '%(html_url)s/archive/%(default_branch)s.zip' % repo,
                 'url': repo['homepage'] or repo['html_url'],
                 'modules_required': [],
                 'modules_optional': [],

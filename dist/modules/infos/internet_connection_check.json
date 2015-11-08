@@ -1,10 +1,11 @@
 {
-  "modules_optional": [],
-  "modules_required": [],
-  "description": "Send a notification to user when internet are down/up.",
   "issues_url": "https://github.com/Modular-Life-Assistant/MoLA-internet_connection_check-module/issues",
-  "url": "https://github.com/Modular-Life-Assistant/MoLA-internet_connection_check-module",
+  "modules_optional": [],
+  "zip_url": "https://github.com/Modular-Life-Assistant/MoLA-internet_connection_check-module/archive/master.zip",
   "module_name": "internet_connection_check",
+  "url": "https://github.com/Modular-Life-Assistant/MoLA-internet_connection_check-module",
+  "modules_required": [],
   "github_id": 41970202,
+  "description": "Send a notification to user when internet are down/up.",
   "name": "Internet connection check"
 }

@@ -1,19 +1,9 @@
 {
   "projects": [
     {
-      "name": "Home protect",
-      "issues_url": "",
       "project_name": "home_protect",
-      "url": "",
-      "modules_optional": [
-        "linux_notification_osd",
-        "motion_detection_notification",
-        "wanscam",
-        "windows_notification",
-        "windows_voice_synthesis"
-      ],
-      "modules_required": [],
-      "description": ""
+      "description": "",
+      "name": "Home protect"
     }
   ]
 }

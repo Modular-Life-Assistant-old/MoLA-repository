@@ -61,15 +61,13 @@ def build_list(dir_name):
             '%s_name' % dir_name[:-1]: name,
             'name': name.replace('_', ' ').capitalize(),
             'description': '',
-            'issues_url': '',
-            'url': '',
-            'modules_required': [],
-            'modules_optional': [],
         }
 
         # update value
         with open(os.path.join(infos_path, file_name)) as f:
-            item.update(json.load(f))
+            info = json.load(f)
+            for index in list(item):
+                    item[index] = info.get(index, item[index])
 
         item_list.append(item)
 

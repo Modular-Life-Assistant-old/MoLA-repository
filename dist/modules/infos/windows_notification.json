@@ -1,10 +1,10 @@
 {
-  "name": "Windows notification",
-  "issues_url": "https://github.com/Modular-Life-Assistant/MoLA-windows_notification-module/issues",
-  "description": "Send a notification on Windows platform.",
-  "url": "https://github.com/Modular-Life-Assistant/MoLA-windows_notification-module",
-  "modules_required": [],
-  "github_id": 41969939,
   "modules_optional": [],
-  "module_name": "windows_notification"
+  "modules_required": [],
+  "description": "Send a notification on Windows platform.",
+  "issues_url": "https://github.com/Modular-Life-Assistant/MoLA-windows_notification-module/issues",
+  "url": "https://github.com/Modular-Life-Assistant/MoLA-windows_notification-module",
+  "module_name": "windows_notification",
+  "github_id": 41969939,
+  "name": "Windows notification"
 }
